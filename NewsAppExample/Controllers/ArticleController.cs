@@ -19,7 +19,7 @@ namespace NewsAppExample.Controllers
         {
             "Get to know hot milfs in your area!!!!" ,
             "Miracle Weight Loss Pill: Shed Pounds Overnight!",
-            "Exclusive Offer: Free iPhone XS (Limited Stock)!",
+            "Exclusive Offer: Free iPhone 15 Pro (Limited Stock)!",
             "Earn $100/hr Working from Home - No Skills Required!"
         };
 
