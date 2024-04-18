@@ -1,4 +1,0 @@
-{
-	"connectionString": "Server=localhost;Database=NewsAppExample;User Id=sa;Password=Baum123456;TrustServerCertificate=true;",
-	"jwtKey": "This is my very secret key that I am using for testing only. It just needs a few more characters"
-}
