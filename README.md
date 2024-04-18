@@ -43,3 +43,9 @@ To get the database migration started, following commands are needed:
 Add-Migration <MigrationName>
 Update-Database
 ```
+
+It might be necessary to navigate to the correct project path first. 
+```bash
+cd /NewsAppExample
+```
+
