@@ -27,3 +27,19 @@ Editors are more privileged and have the permissions to edit and delete all user
 
 ## Github codespaces
 The project would be able to run in Github codespaces, but it does not have the config file with the database connectionstring and there is no local MS SQL server. 
+
+## Running the project
+This project needs a Microsoft SQL server database. For that to work, a config.json file needs to be located in the root directory of the project. 
+```json
+{
+	"connectionString": "Server=localhost;Database=NewsAppExample;User Id=<UserID>;Password=<Password>;TrustServerCertificate=true;",
+	"jwtKey": "Store jwt key here"
+}
+```
+In a production system, this data should of course be stored somewhere more secure and be encrypted.
+
+To get the database migration started, following commands are needed:
+```bash
+Add-Migration <MigrationName>
+Update-Database
+```
