@@ -25,4 +25,5 @@ Guests have the same permissions as anonymous users,
 while subscribers do not get ads when reading articles and are able to create articles, edit their own articles and write comments. 
 Editors are more privileged and have the permissions to edit and delete all users articles and comments. These could be considered the sites moderators. 
 
-
+## Github codespaces
+The project would be able to run in Github codespaces, but it does not have the config file with the database connectionstring and there is no local MS SQL server. 
