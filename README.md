@@ -12,6 +12,8 @@ The project communicates with the database using Entity Framework (code first ap
 For authentication a simple login with username and password was created. 
 The password gets hashed a few times before being stored in the database alongside the randomly generated salt. 
 
+After login, a JWT Bearer token gets created and returned to the user. This is used to both verify that the user is logged in and to read the users role from the database. 
+
 ## Authorisation
 A role based authorisation scheme was created. 
 There are three main roles: 
